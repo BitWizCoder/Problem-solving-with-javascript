@@ -19,39 +19,39 @@ The challenges range from very easy to intermediate difficulty, and there are ev
 **1. Concatenate strings:**
     Concatenate two strings together.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/concatStr.js)**
 
 **2. Sum of numbers:**
     Create a simple function that returns the sum of two numbers.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/sumNumber.js)**
 
 **3. Even or odd:**
     Use a conditional statement (if-else) to check if a number is even or odd.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/evenOdd.js)**
 
 **4. Print Numbers:**
     Use a loop (for or while) to print numbers from 1 to 10.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/printNum.js)**
 
 **5. Iterate through an array:**
     Iterate through an array using a loop and print each element.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/iterateArr.js)**
 
 **6. large number:**
     Create a function that takes two parameters and returns the larger one.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/largeNum.js)**
 
 **7. Return array length:**
     Create a function that takes an array as a parameter and returns its length.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/arrLen.js)**
 
 **8. Return string length:**
     Create a function that takes a string as a parameter and returns its length.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLen.js)**

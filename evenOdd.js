@@ -7,4 +7,5 @@ function evenOdd(num) {
 }
 
 
-console.log(evenOdd(9))
+console.log(evenOdd(40))
+console.log(evenOdd(85))

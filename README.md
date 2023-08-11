@@ -16,42 +16,42 @@ The challenges range from very easy to intermediate difficulty, and there are ev
 
 **Basic Syntax and Concepts:**
 
-**xi. Concatenate strings:**
+**1. Concatenate strings:**
     Concatenate two strings together.
     
  **[Solution]()**
 
-**xi. Sum of numbers:**
+**2. Sum of numbers:**
     Create a simple function that returns the sum of two numbers.
     
  **[Solution]()**
 
-**xi. Even or odd:**
+**3. Even or odd:**
     Use a conditional statement (if-else) to check if a number is even or odd.
     
  **[Solution]()**
 
-**xi. Print Numbers:**
+**4. Print Numbers:**
     Use a loop (for or while) to print numbers from 1 to 10.
     
  **[Solution]()**
 
-**xi. Iterate through an array:**
+**5. Iterate through an array:**
     Iterate through an array using a loop and print each element.
     
  **[Solution]()**
 
-**xi. large number:**
+**6. large number:**
     Create a function that takes two parameters and returns the larger one.
     
  **[Solution]()**
 
-**xi. Return array length:**
+**7. Return array length:**
     Create a function that takes an array as a parameter and returns its length.
     
  **[Solution]()**
 
-**xi. Return string length:**
+**8. Return string length:**
     Create a function that takes a string as a parameter and returns its length.
     
  **[Solution]()**

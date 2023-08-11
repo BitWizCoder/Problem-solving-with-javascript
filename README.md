@@ -55,5 +55,3 @@ The challenges range from very easy to intermediate difficulty, and there are ev
     Create a function that takes a string as a parameter and returns its length.
     
  **[Solution]()**
-
-

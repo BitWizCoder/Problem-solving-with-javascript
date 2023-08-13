@@ -1,9 +1,10 @@
+// Concatenate two strings together
+
 function contactStr(str1, str2) {
-    return `${str1} ${str2}`
+    return `${str1} ${str2}`;
 }
 
+const firstName = "Muhammad";
+const lastName = "Noman";
 
-const firstName = 'Muhammad'
-const lastName = 'Noman'
-
-console.log(contactStr(firstName, lastName))
+console.log(contactStr(firstName, lastName)); // Output : Muhammad Noman

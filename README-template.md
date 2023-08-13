@@ -55,3 +55,38 @@ The challenges range from very easy to intermediate difficulty, and there are ev
     Create a function that takes a string as a parameter and returns its length.
     
  **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLen.js)**
+
+
+
+ **String Manipulation:**
+
+
+**xi. to uppercase:**
+    Convert a string to uppercase.
+    
+ **[Solution]()**
+
+**xi. to lowercase:**
+    Convert a string to lowercase.
+    
+ **[Solution]()**
+
+**xi. Check string:**
+    Check if a string contains a specific substring.
+    
+ **[Solution]()**
+
+**xi. Replace word:**
+    Replace a specific word in a string with another word.
+    
+ **[Solution]()**
+
+**xi. Remove whitespace:**
+    Remove whitespace from the beginning and end of a string.
+    
+ **[Solution]()**
+
+**xi. Convert string:**
+    Convert a string to an array of characters
+    
+ **[Solution]()**

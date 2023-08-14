@@ -92,3 +92,70 @@ The challenges range from very easy to intermediate difficulty, and there are ev
  **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/convertStr.js)**
 
  
+ **Array Manipulation:**
+
+
+**xi. Add elements to the end of an array:**
+    Add given elements to the end of an array.
+    
+ **[Solution]()**
+
+**xi. Remove last element:**
+    Remove the last element from an array.
+    
+ **[Solution]()**
+
+**xi. Add elements to the beginning of an array:**
+    Add given elements to the beginning of an array.
+    
+ **[Solution]()**
+
+**xi. Remove first element:**
+    Remove the first element from an array.
+    
+ **[Solution]()**
+
+**xi. Find array elements index:**
+    Find the index of a specific element in an array.
+    
+ **[Solution]()**
+
+**xi. Remove array elements from index:**
+    Remove an element from a specific index in an array.
+    
+ **[Solution]()**
+
+**xi. Sort an array:**
+    Sort an array of numbers in ascending order.
+    
+ **[Solution]()**
+
+**xi. Reverse an array:**
+    Reverse an array.
+    
+ **[Solution]()**
+
+**xi. Merge two arrays:**
+    Merge two arrays into a single array.
+    
+ **[Solution]()**
+
+**xi. Check specific element in array:**
+    Check if an array contains a specific element.
+    
+ **[Solution]()**
+
+**xi. Filter even numbers:**
+    Filter out even numbers from an array.
+    
+ **[Solution]()**
+
+**xi. Double array elements:**
+    Map over an array to double each element.
+    
+ **[Solution]()**
+
+**xi. Sum numbers:**
+    Sum all the numbers in an array.
+    
+ **[Solution]()**

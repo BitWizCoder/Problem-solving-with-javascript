@@ -90,3 +90,5 @@ The challenges range from very easy to intermediate difficulty, and there are ev
     Convert a string to an array of characters.
     
  **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/convertStr.js)**
+
+ 

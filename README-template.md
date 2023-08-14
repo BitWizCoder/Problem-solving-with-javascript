@@ -64,29 +64,29 @@ The challenges range from very easy to intermediate difficulty, and there are ev
 **xi. to uppercase:**
     Convert a string to uppercase.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strUpper.js)**
 
 **xi. to lowercase:**
     Convert a string to lowercase.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLower.js)**
 
 **xi. Check string:**
     Check if a string contains a specific substring.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/checkStr.js)**
 
 **xi. Replace word:**
     Replace a specific word in a string with another word.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/replaceWord.js)**
 
 **xi. Remove whitespace:**
     Remove whitespace from the beginning and end of a string.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/removeSpace.js)**
 
 **xi. Convert string:**
     Convert a string to an array of characters.
     
- **[Solution]()**
+ **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/convertStr.js)**

@@ -1,13 +1,13 @@
 // Replace a specific word in a string with another word.
 
-function replaceWord(word1, word2) {
-	if (word1.toLowerCase().includes("world".toLowerCase())) {
-		word1.replace('test')
-	} else {
-		return false;
-	}
+function replaceWord(originalStr, wordToReplace, replacementWord) {
+	let modifiedString = originalStr.replace( new RegExp(wordToReplace, 'g'), replacementWord);
+	return modifiedString;
 }
 
-const word1 = "Hello World!";
-const word2 = "Earth";
-console.log(replaceWord(word1, word2));
+const originalStr = "Hello Earth! Javascript is awesome. Hello Earth! is our first programm.";
+const wordToReplace = "Earth";
+const replacementWord = "World";
+
+console.log(replaceWord(originalStr, wordToReplace, replacementWord));
+// Output : Hello World! Javascript is awesome. Hello World! is our first programm.

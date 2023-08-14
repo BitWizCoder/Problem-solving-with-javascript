@@ -87,6 +87,6 @@ The challenges range from very easy to intermediate difficulty, and there are ev
  **[Solution]()**
 
 **xi. Convert string:**
-    Convert a string to an array of characters
+    Convert a string to an array of characters.
     
  **[Solution]()**

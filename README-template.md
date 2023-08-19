@@ -17,145 +17,141 @@ The challenges range from very easy to intermediate difficulty, and there are ev
 **Basic Syntax and Concepts:**
 
 **xi. Concatenate strings:**
-    Concatenate two strings together.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/concatStr.js)**
+Create a function that takes two strings as arguments and return a new string.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/concatStr.js)**
 
 **xi. Sum of numbers:**
-    Create a simple function that returns the sum of two numbers.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/sumNumber.js)**
+Create a simple function that takes two numbers as arguments and returns the sum of two numbers.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/sumNumber.js)**
 
 **xi. Even or odd:**
-    Use a conditional statement (if-else) to check if a number is even or odd.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/evenOdd.js)**
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/evenOdd.js)**
 
 **xi. Print Numbers:**
-    Use a loop (for or while) to print numbers from 1 to 10.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/printNum.js)**
+Create a function that takes an integer as an argument and it prints all the numbers starting from 1 upto the given number. 
+
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/printNum.js)**
 
 **xi. Iterate through an array:**
-    Iterate through an array using a loop and print each element.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/iterateArr.js)**
+Iterate through an array using a loop and print each element.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/iterateArr.js)**
 
 **xi. large number:**
-    Create a function that takes two parameters and returns the larger one.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/largeNum.js)**
+Create a function that takes two parameters and returns the larger one.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/largeNum.js)**
 
 **xi. Return array length:**
-    Create a function that takes an array as a parameter and returns its length.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/arrLen.js)**
+Create a function that takes an array as a parameter and returns its length.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/arrLen.js)**
 
 **xi. Return string length:**
-    Create a function that takes a string as a parameter and returns its length.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLen.js)**
+Create a function that takes a string as a parameter and returns its length.
 
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLen.js)**
 
-
- **String Manipulation:**
-
+**String Manipulation:**
 
 **xi. to uppercase:**
-    Convert a string to uppercase.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strUpper.js)**
+Convert a string to uppercase.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strUpper.js)**
 
 **xi. to lowercase:**
-    Convert a string to lowercase.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLower.js)**
+Convert a string to lowercase.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLower.js)**
 
 **xi. Check string:**
-    Check if a string contains a specific substring.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/checkStr.js)**
+Check if a string contains a specific substring.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/checkStr.js)**
 
 **xi. Replace word:**
-    Replace a specific word in a string with another word.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/replaceWord.js)**
+Replace a specific word in a string with another word.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/replaceWord.js)**
 
 **xi. Remove whitespace:**
-    Remove whitespace from the beginning and end of a string.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/removeSpace.js)**
+Remove whitespace from the beginning and end of a string.
+
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/removeSpace.js)**
 
 **xi. Convert string:**
-    Convert a string to an array of characters.
-    
- **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/convertStr.js)**
+Convert a string to an array of characters.
 
- 
- **Array Manipulation:**
+**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/convertStr.js)**
 
+**Array Manipulation:**
 
 **xi. Add elements to the end of an array:**
-    Add given elements to the end of an array.
-    
- **[Solution]()**
+Add given elements to the end of an array.
+
+**[Solution]()**
 
 **xi. Remove last element:**
-    Remove the last element from an array.
-    
- **[Solution]()**
+Remove the last element from an array.
+
+**[Solution]()**
 
 **xi. Add elements to the beginning of an array:**
-    Add given elements to the beginning of an array.
-    
- **[Solution]()**
+Add given elements to the beginning of an array.
+
+**[Solution]()**
 
 **xi. Remove first element:**
-    Remove the first element from an array.
-    
- **[Solution]()**
+Remove the first element from an array.
+
+**[Solution]()**
 
 **xi. Find array elements index:**
-    Find the index of a specific element in an array.
-    
- **[Solution]()**
+Find the index of a specific element in an array.
+
+**[Solution]()**
 
 **xi. Remove array elements from index:**
-    Remove an element from a specific index in an array.
-    
- **[Solution]()**
+Remove an element from a specific index in an array.
+
+**[Solution]()**
 
 **xi. Sort an array:**
-    Sort an array of numbers in ascending order.
-    
- **[Solution]()**
+Sort an array of numbers in ascending order.
+
+**[Solution]()**
 
 **xi. Reverse an array:**
-    Reverse an array.
-    
- **[Solution]()**
+Reverse an array.
+
+**[Solution]()**
 
 **xi. Merge two arrays:**
-    Merge two arrays into a single array.
-    
- **[Solution]()**
+Merge two arrays into a single array.
+
+**[Solution]()**
 
 **xi. Check specific element in array:**
-    Check if an array contains a specific element.
-    
- **[Solution]()**
+Check if an array contains a specific element.
+
+**[Solution]()**
 
 **xi. Filter even numbers:**
-    Filter out even numbers from an array.
-    
- **[Solution]()**
+Filter out even numbers from an array.
+
+**[Solution]()**
 
 **xi. Double array elements:**
-    Map over an array to double each element.
-    
- **[Solution]()**
+Map over an array to double each element.
+
+**[Solution]()**
 
 **xi. Sum numbers:**
-    Sum all the numbers in an array.
-    
- **[Solution]()**
+Sum all the numbers in an array.
+
+**[Solution]()**

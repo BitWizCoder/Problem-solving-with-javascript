@@ -172,7 +172,6 @@ console.log(findLarge(4, 3)) // 4
 
 ```
 
-
 <details>
 <summary>Solution</summary>
 

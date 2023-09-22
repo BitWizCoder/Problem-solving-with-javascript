@@ -12,11 +12,20 @@ If programming is entirely new to you, it's a good idea to grasp some programmin
 
 The challenges range from very easy to intermediate difficulty, and there are even a few semi-advanced problems. If you're unable to solve a problem on your own, you can take a look at my solution or seek assistance elsewhere. Then, give it another shot on your own. Enjoy the process of coding :)
 
-
 ## Basic Syntax and Concepts:
 
 ## 1. Concatenate strings:
+
 Create a function that takes two strings as arguments and return a new string.
+
+```javascript
+function concatinateStrings(str1, str2) {
+  // Your code
+}
+
+console.log(concatinateStrings("Hello", "World!")); // Hello, World!
+console.log(concatinateStrings("Hello", "Sam!")); // Hello, Sam!
+```
 
 <details>
 <summary>Solution</summary>
@@ -35,7 +44,17 @@ function concatinateStrings(str1, str2) {
 ---
 
 ### 2. Sum of numbers:
+
 Create a simple function that takes two numbers as arguments and returns the sum of two numbers.
+
+```javascript
+function sumOfNumbers(num1, num2) {
+  // Your code
+}
+
+console.log(sumOfNumbers(1, 2)); // 3
+console.log(sumOfNumbers(3, 3)); // 6
+```
 
 <details>
 <summary>Solution</summary>
@@ -46,7 +65,6 @@ function sumOfNumbers(num1, num2) {
 
   return sum;
 }
-
 ```
 
 </details>
@@ -54,7 +72,17 @@ function sumOfNumbers(num1, num2) {
 ---
 
 ### 3. Even or odd:
+
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+```javascript
+function evenOrOdd(int) {
+  // Your code
+}
+
+console.log(evenOrOdd(2)); // Even
+console.log(evenOrOdd(3)); // Odd
+```
 
 <details>
 <summary>Solution</summary>
@@ -74,7 +102,17 @@ function evenOrOdd(int) {
 ---
 
 ### 4. Print Numbers:
+
 Create a function that takes an integer as an argument and it prints all the numbers starting from 1 upto the given number.
+
+```javascript
+function printNums(n) {
+  // Your code
+}
+
+console.log(printNums(3)); // 1, 2, 3
+console.log(printNums(5)); // 1, 2, 3, 4, 5
+```
 
 <details>
 <summary>Solution</summary>
@@ -91,15 +129,24 @@ function printNums(n) {
 
 ---
 
-
 ### 5. Iterate through an array:
+
 Iterate through an array using a loop and print each element.
+
+```javascript
+function iterateThroughArray(arr) {
+  // Your code
+}
+
+console.log(iterateThroughArray([1, 2, 3])); // 1, 2, 3
+console.log(iterateThroughArray(["apple", "bannana", "orange"])); // apple, banana, orange
+```
 
 <details>
 <summary>Solution</summary>
 
 ```javascript
- function iterateThroughArray(arr) {
+function iterateThroughArray(arr) {
   for (let i = 0; i < arr.length; i++) {
     const element = arr[i];
     console.log(element);
@@ -111,9 +158,20 @@ Iterate through an array using a loop and print each element.
 
 ---
 
-
 ### 6. large number:
+
 Create a function that takes two parameters and returns the larger one.
+
+```javascript
+function findLarge(num1, num2) {
+  // Your code
+}
+
+console.log(findLarge(1, 2)) // 2
+console.log(findLarge(4, 3)) // 4
+
+```
+
 
 <details>
 <summary>Solution</summary>
@@ -133,7 +191,6 @@ function findLarge(num1, num2) {
 </details>
 
 ---
-
 
 **String Manipulation:**
 

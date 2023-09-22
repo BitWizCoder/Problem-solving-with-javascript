@@ -12,146 +12,224 @@ If programming is entirely new to you, it's a good idea to grasp some programmin
 
 The challenges range from very easy to intermediate difficulty, and there are even a few semi-advanced problems. If you're unable to solve a problem on your own, you can take a look at my solution or seek assistance elsewhere. Then, give it another shot on your own. Enjoy the process of coding :)
 
-### CHALLENGES:
 
-**Basic Syntax and Concepts:**
+## Basic Syntax and Concepts:
 
-**1. Concatenate strings:**
+## 1. Concatenate strings:
 Create a function that takes two strings as arguments and return a new string.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/concatStr.js)**
+<details>
+<summary>Solution</summary>
 
-**2. Sum of numbers:**
+```javascript
+function concatinateStrings(str1, str2) {
+  const result = str1 + " " + str2;
+  const result2 = `${str1} ${str2}`;
+
+  return result2;
+}
+```
+
+</details>
+
+---
+
+### 2. Sum of numbers:
 Create a simple function that takes two numbers as arguments and returns the sum of two numbers.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/sumNumber.js)**
+<details>
+<summary>Solution</summary>
 
-**3. Even or odd:**
+```javascript
+function sumOfNumbers(num1, num2) {
+  const sum = num1 + num2;
+
+  return sum;
+}
+
+```
+
+</details>
+
+---
+
+### 3. Even or odd:
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/evenOdd.js)**
+<details>
+<summary>Solution</summary>
 
-**4. Print Numbers:**
-Create a function that takes an integer as an argument and it prints all the numbers starting from 1 upto the given number. 
+```javascript
+function evenOrOdd(int) {
+  if (int % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+```
+
+</details>
+
+---
+
+### 4. Print Numbers:
+Create a function that takes an integer as an argument and it prints all the numbers starting from 1 upto the given number.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+function printNums(n) {
+  for (let i = 1; i <= n; i++) {
+    console.log(i);
+  }
+}
+```
+
+</details>
+
+---
 
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/printNum.js)**
-
-**5. Iterate through an array:**
+### 5. Iterate through an array:
 Iterate through an array using a loop and print each element.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/iterateArr.js)**
+<details>
+<summary>Solution</summary>
 
-**6. large number:**
+```javascript
+ function iterateThroughArray(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    console.log(element);
+  }
+}
+```
+
+</details>
+
+---
+
+
+### 6. large number:
 Create a function that takes two parameters and returns the larger one.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/largeNum.js)**
+<details>
+<summary>Solution</summary>
 
-**7. Return array length:**
-Create a function that takes an array as a parameter and returns its length.
+```javascript
+function findLarge(num1, num2) {
+  if (num1 > num2) {
+    return num1;
+  } else {
+    return num2;
+  }
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/arrLen.js)**
+  //   return num1 > num2 ? num1 : num2;
+}
+```
 
-**8. Return string length:**
-Create a function that takes a string as a parameter and returns its length.
+</details>
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLen.js)**
+---
+
 
 **String Manipulation:**
 
-**9. to uppercase:**
+**7. to uppercase:**
 Convert a string to uppercase.
 
 **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strUpper.js)**
 
-**10. to lowercase:**
+**8. to lowercase:**
 Convert a string to lowercase.
 
 **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLower.js)**
 
-**11. Check string:**
+**9. Check string:**
 Check if a string contains a specific substring.
 
 **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/checkStr.js)**
 
-**12. Replace word:**
+**10. Replace word:**
 Replace a specific word in a string with another word.
 
 **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/replaceWord.js)**
 
-**13. Remove whitespace:**
+**11. Remove whitespace:**
 Remove whitespace from the beginning and end of a string.
 
 **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/removeSpace.js)**
 
-**14. Convert string:**
+**12. Convert string:**
 Convert a string to an array of characters.
 
 **[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/convertStr.js)**
 
 **Array Manipulation:**
 
-**15. Add elements to the end of an array:**
+**13. Add elements to the end of an array:**
 Add given elements to the end of an array.
 
 **[Solution]()**
 
-**16. Remove last element:**
+**14. Remove last element:**
 Remove the last element from an array.
 
 **[Solution]()**
 
-**17. Add elements to the beginning of an array:**
+**15. Add elements to the beginning of an array:**
 Add given elements to the beginning of an array.
 
 **[Solution]()**
 
-**18. Remove first element:**
+**16. Remove first element:**
 Remove the first element from an array.
 
 **[Solution]()**
 
-**19. Find array elements index:**
+**17. Find array elements index:**
 Find the index of a specific element in an array.
 
 **[Solution]()**
 
-**20. Remove array elements from index:**
+**18. Remove array elements from index:**
 Remove an element from a specific index in an array.
 
 **[Solution]()**
 
-**21. Sort an array:**
+**19. Sort an array:**
 Sort an array of numbers in ascending order.
 
 **[Solution]()**
 
-**22. Reverse an array:**
+**20. Reverse an array:**
 Reverse an array.
 
 **[Solution]()**
 
-**23. Merge two arrays:**
+**21. Merge two arrays:**
 Merge two arrays into a single array.
 
 **[Solution]()**
 
-**24. Check specific element in array:**
+**22. Check specific element in array:**
 Check if an array contains a specific element.
 
 **[Solution]()**
 
-**25. Filter even numbers:**
+**23. Filter even numbers:**
 Filter out even numbers from an array.
 
 **[Solution]()**
 
-**26. Double array elements:**
+**24. Double array elements:**
 Map over an array to double each element.
 
 **[Solution]()**
 
-**27. Sum numbers:**
+**25. Sum numbers:**
 Sum all the numbers in an array.
 
 **[Solution]()**

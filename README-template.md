@@ -12,50 +12,128 @@ If programming is entirely new to you, it's a good idea to grasp some programmin
 
 The challenges range from very easy to intermediate difficulty, and there are even a few semi-advanced problems. If you're unable to solve a problem on your own, you can take a look at my solution or seek assistance elsewhere. Then, give it another shot on your own. Enjoy the process of coding :)
 
-### CHALLENGES:
 
-**Basic Syntax and Concepts:**
+## Basic Syntax and Concepts:
 
-**xi. Concatenate strings:**
+## xi. Concatenate strings:
 Create a function that takes two strings as arguments and return a new string.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/concatStr.js)**
+<details>
+<summary>Solution</summary>
 
-**xi. Sum of numbers:**
+```javascript
+function concatinateStrings(str1, str2) {
+  const result = str1 + " " + str2;
+  const result2 = `${str1} ${str2}`;
+
+  return result2;
+}
+```
+
+</details>
+
+---
+
+### xi. Sum of numbers:
 Create a simple function that takes two numbers as arguments and returns the sum of two numbers.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/sumNumber.js)**
+<details>
+<summary>Solution</summary>
 
-**xi. Even or odd:**
+```javascript
+function sumOfNumbers(num1, num2) {
+  const sum = num1 + num2;
+
+  return sum;
+}
+
+```
+
+</details>
+
+---
+
+### xi. Even or odd:
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/evenOdd.js)**
+<details>
+<summary>Solution</summary>
 
-**xi. Print Numbers:**
-Create a function that takes an integer as an argument and it prints all the numbers starting from 1 upto the given number. 
+```javascript
+function evenOrOdd(int) {
+  if (int % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+```
+
+</details>
+
+---
+
+### xi. Print Numbers:
+Create a function that takes an integer as an argument and it prints all the numbers starting from 1 upto the given number.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+function printNums(n) {
+  for (let i = 1; i <= n; i++) {
+    console.log(i);
+  }
+}
+```
+
+</details>
+
+---
 
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/printNum.js)**
-
-**xi. Iterate through an array:**
+### xi. Iterate through an array:
 Iterate through an array using a loop and print each element.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/iterateArr.js)**
+<details>
+<summary>Solution</summary>
 
-**xi. large number:**
+```javascript
+ function iterateThroughArray(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    console.log(element);
+  }
+}
+```
+
+</details>
+
+---
+
+
+### xi. large number:
 Create a function that takes two parameters and returns the larger one.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/largeNum.js)**
+<details>
+<summary>Solution</summary>
 
-**xi. Return array length:**
-Create a function that takes an array as a parameter and returns its length.
+```javascript
+function findLarge(num1, num2) {
+  if (num1 > num2) {
+    return num1;
+  } else {
+    return num2;
+  }
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/arrLen.js)**
+  //   return num1 > num2 ? num1 : num2;
+}
+```
 
-**xi. Return string length:**
-Create a function that takes a string as a parameter and returns its length.
+</details>
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLen.js)**
+---
+
 
 **String Manipulation:**
 

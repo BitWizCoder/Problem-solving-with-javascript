@@ -191,101 +191,395 @@ function findLarge(num1, num2) {
 
 ---
 
-**String Manipulation:**
+## String Manipulation:
 
-**xi. to uppercase:**
-Convert a string to uppercase.
+### xi. Reverse a String:
+Create a function to reverse the characters in a string
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strUpper.js)**
+<details>
+<summary>Solution</summary>
 
-**xi. to lowercase:**
-Convert a string to lowercase.
+```javascript
+// solution here
+```
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLower.js)**
+</details>
 
-**xi. Check string:**
-Check if a string contains a specific substring.
+---
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/checkStr.js)**
 
-**xi. Replace word:**
-Replace a specific word in a string with another word.
+### xi. Palindrome Checker:
+Write a function that checks if a word is a palindrome (reads the same backward as forward)
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/replaceWord.js)**
+<details>
+<summary>Solution</summary>
 
-**xi. Remove whitespace:**
-Remove whitespace from the beginning and end of a string.
+```javascript
+// solution here
+```
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/removeSpace.js)**
+</details>
 
-**xi. Convert string:**
-Convert a string to an array of characters.
+---
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/convertStr.js)**
+### xi. Longest Word:
+Write a function to find the longest word in a sentence
 
-**Array Manipulation:**
+<details>
+<summary>Solution</summary>
 
-**xi. Add elements to the end of an array:**
-Add given elements to the end of an array.
+```javascript
+// solution here
+```
 
-**[Solution]()**
+</details>
 
-**xi. Remove last element:**
-Remove the last element from an array.
+---
 
-**[Solution]()**
+### xi. Shortest Word:
+Write a function to find the shortest word in a sentence.
 
-**xi. Add elements to the beginning of an array:**
-Add given elements to the beginning of an array.
+<details>
+<summary>Solution</summary>
 
-**[Solution]()**
+```javascript
+// solution here
+```
 
-**xi. Remove first element:**
-Remove the first element from an array.
+</details>
 
-**[Solution]()**
+---
 
-**xi. Find array elements index:**
-Find the index of a specific element in an array.
 
-**[Solution]()**
+### xi. Title Case:
+Write a function to convert a string to title case (capitalize the first letter of each word)
 
-**xi. Remove array elements from index:**
-Remove an element from a specific index in an array.
+<details>
+<summary>Solution</summary>
 
-**[Solution]()**
+```javascript
+// solution here
+```
 
-**xi. Sort an array:**
-Sort an array of numbers in ascending order.
+</details>
 
-**[Solution]()**
+---
 
-**xi. Reverse an array:**
-Reverse an array.
 
-**[Solution]()**
+### xi. Anagram Checker:
+Create a function that checks if two words are anagrams (contain the same letters)
 
-**xi. Merge two arrays:**
-Merge two arrays into a single array.
+<details>
+<summary>Solution</summary>
 
-**[Solution]()**
+```javascript
+// solution here
+```
 
-**xi. Check specific element in array:**
-Check if an array contains a specific element.
+</details>
 
-**[Solution]()**
+---
 
-**xi. Filter even numbers:**
-Filter out even numbers from an array.
 
-**[Solution]()**
 
-**xi. Double array elements:**
-Map over an array to double each element.
+## Array Manipulation
 
-**[Solution]()**
+### xi. Sort an Array:
+Write a function to sort an array of numbers in ascending order
 
-**xi. Sum numbers:**
-Sum all the numbers in an array.
+<details>
+<summary>Solution</summary>
 
-**[Solution]()**
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Sort an Array:
+Write a function to sort an array of numbers in ascending order
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Check for Element:
+Create a function that checks if a specific element exists in an array
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Average of Numbers:
+Find the average of numbers in an array
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Intersection of Arrays:
+Find the common elements between two arrays
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Remove Specific Element:
+Write a function to remove a specific element from an array
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Remove Duplicates:
+Create a function that removes duplicate elements from an array
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+## Number Manipulation
+
+### xi. Maximum of Two Numbers:
+Write a function to find the maximum of two numbers.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Prime Number Checker:
+Check if a number is prime (only divisible by 1 and itself)
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. GCD (Greatest Common Divisor):
+Find the GCD of two numbers.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. LCM (Least Common Multiple):
+Find the LCM of two numbers.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Sum of Digits:
+Calculate the sum of the digits of a number.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Perfect Number Checker:
+Check if a number is a perfect number (sum of its divisors equals itself)
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Power of a Number:
+Calculate the power of a number
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### xi. Square Root:
+Calculate the square root of a number
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Factorial:
+Calculate the factorial of a number
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Fibonacci Sequence:
+Generate the Fibonacci sequence up to a given number of terms.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Binary to Decimal Converter:
+Convert a binary number to a decimal number
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Roman Numeral Converter:
+Convert a number to a Roman numeral.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+
+### xi. Area of a Circle:
+Calculate the area of a circle with a given radius.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---

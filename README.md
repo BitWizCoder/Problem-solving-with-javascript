@@ -12,146 +12,546 @@ If programming is entirely new to you, it's a good idea to grasp some programmin
 
 The challenges range from very easy to intermediate difficulty, and there are even a few semi-advanced problems. If you're unable to solve a problem on your own, you can take a look at my solution or seek assistance elsewhere. Then, give it another shot on your own. Enjoy the process of coding :)
 
-### CHALLENGES:
+## Basic Syntax and Concepts:
 
-**Basic Syntax and Concepts:**
+## 1. Concatenate strings:
 
-**1. Concatenate strings:**
 Create a function that takes two strings as arguments and return a new string.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/concatStr.js)**
+```javascript
+function concatinateStrings(str1, str2) {
+  // Your code
+}
 
-**2. Sum of numbers:**
+console.log(concatinateStrings("Hello", "World!")); // Hello, World!
+console.log(concatinateStrings("Hello", "Sam!")); // Hello, Sam!
+```
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+function concatinateStrings(str1, str2) {
+  const result = str1 + " " + str2;
+  const result2 = `${str1} ${str2}`;
+
+  return result2;
+}
+```
+
+</details>
+
+---
+
+### 2. Sum of numbers:
+
 Create a simple function that takes two numbers as arguments and returns the sum of two numbers.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/sumNumber.js)**
+```javascript
+function sumOfNumbers(num1, num2) {
+  // Your code
+}
 
-**3. Even or odd:**
+console.log(sumOfNumbers(1, 2)); // 3
+console.log(sumOfNumbers(3, 3)); // 6
+```
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+function sumOfNumbers(num1, num2) {
+  const sum = num1 + num2;
+
+  return sum;
+}
+```
+
+</details>
+
+---
+
+### 3. Even or odd:
+
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/evenOdd.js)**
+```javascript
+function evenOrOdd(int) {
+  // Your code
+}
 
-**4. Print Numbers:**
-Create a function that takes an integer as an argument and it prints all the numbers starting from 1 upto the given number. 
+console.log(evenOrOdd(2)); // Even
+console.log(evenOrOdd(3)); // Odd
+```
 
+<details>
+<summary>Solution</summary>
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/printNum.js)**
+```javascript
+function evenOrOdd(int) {
+  if (int % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+```
 
-**5. Iterate through an array:**
+</details>
+
+---
+
+### 4. Print Numbers:
+
+Create a function that takes an integer as an argument and it prints all the numbers starting from 1 upto the given number.
+
+```javascript
+function printNums(n) {
+  // Your code
+}
+
+console.log(printNums(3)); // 1, 2, 3
+console.log(printNums(5)); // 1, 2, 3, 4, 5
+```
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+function printNums(n) {
+  for (let i = 1; i <= n; i++) {
+    console.log(i);
+  }
+}
+```
+
+</details>
+
+---
+
+### 5. Iterate through an array:
+
 Iterate through an array using a loop and print each element.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/iterateArr.js)**
+```javascript
+function iterateThroughArray(arr) {
+  // Your code
+}
 
-**6. large number:**
+console.log(iterateThroughArray([1, 2, 3])); // 1, 2, 3
+console.log(iterateThroughArray(["apple", "bannana", "orange"])); // apple, banana, orange
+```
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+function iterateThroughArray(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    console.log(element);
+  }
+}
+```
+
+</details>
+
+---
+
+### 6. large number:
+
 Create a function that takes two parameters and returns the larger one.
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/largeNum.js)**
+```javascript
+function findLarge(num1, num2) {
+  // Your code
+}
 
-**7. Return array length:**
-Create a function that takes an array as a parameter and returns its length.
+console.log(findLarge(1, 2)); // 2
+console.log(findLarge(4, 3)); // 4
+```
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/arrLen.js)**
+<details>
+<summary>Solution</summary>
 
-**8. Return string length:**
-Create a function that takes a string as a parameter and returns its length.
+```javascript
+function findLarge(num1, num2) {
+  if (num1 > num2) {
+    return num1;
+  } else {
+    return num2;
+  }
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLen.js)**
+  //   return num1 > num2 ? num1 : num2;
+}
+```
 
-**String Manipulation:**
+</details>
 
-**9. to uppercase:**
-Convert a string to uppercase.
+---
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strUpper.js)**
+## String Manipulation:
 
-**10. to lowercase:**
-Convert a string to lowercase.
+### 7. Reverse a String:
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/strLower.js)**
+Create a function to reverse the characters in a string
 
-**11. Check string:**
-Check if a string contains a specific substring.
+<details>
+<summary>Solution</summary>
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/checkStr.js)**
+```javascript
+// solution here
+```
 
-**12. Replace word:**
-Replace a specific word in a string with another word.
+</details>
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/replaceWord.js)**
+---
 
-**13. Remove whitespace:**
-Remove whitespace from the beginning and end of a string.
+### 8. Palindrome Checker:
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/removeSpace.js)**
+Write a function that checks if a word is a palindrome (reads the same backward as forward)
 
-**14. Convert string:**
-Convert a string to an array of characters.
+<details>
+<summary>Solution</summary>
 
-**[Solution](https://github.com/mhmdNoman/Problem-solving-with-javascript/blob/master/convertStr.js)**
+```javascript
+// solution here
+```
 
-**Array Manipulation:**
+</details>
 
-**15. Add elements to the end of an array:**
-Add given elements to the end of an array.
+---
 
-**[Solution]()**
+### 9. Longest Word:
 
-**16. Remove last element:**
-Remove the last element from an array.
+Write a function to find the longest word in a sentence
 
-**[Solution]()**
+<details>
+<summary>Solution</summary>
 
-**17. Add elements to the beginning of an array:**
-Add given elements to the beginning of an array.
+```javascript
+// solution here
+```
 
-**[Solution]()**
+</details>
 
-**18. Remove first element:**
-Remove the first element from an array.
+---
 
-**[Solution]()**
+### 10. Shortest Word:
 
-**19. Find array elements index:**
-Find the index of a specific element in an array.
+Write a function to find the shortest word in a sentence.
 
-**[Solution]()**
+<details>
+<summary>Solution</summary>
 
-**20. Remove array elements from index:**
-Remove an element from a specific index in an array.
+```javascript
+// solution here
+```
 
-**[Solution]()**
+</details>
 
-**21. Sort an array:**
-Sort an array of numbers in ascending order.
+---
 
-**[Solution]()**
+### 11. Title Case:
 
-**22. Reverse an array:**
-Reverse an array.
+Write a function to convert a string to title case (capitalize the first letter of each word)
 
-**[Solution]()**
+<details>
+<summary>Solution</summary>
 
-**23. Merge two arrays:**
-Merge two arrays into a single array.
+```javascript
+// solution here
+```
 
-**[Solution]()**
+</details>
 
-**24. Check specific element in array:**
-Check if an array contains a specific element.
+---
 
-**[Solution]()**
+### 12. Anagram Checker:
 
-**25. Filter even numbers:**
-Filter out even numbers from an array.
+Create a function that checks if two words are anagrams (contain the same letters)
 
-**[Solution]()**
+<details>
+<summary>Solution</summary>
 
-**26. Double array elements:**
-Map over an array to double each element.
+```javascript
+// solution here
+```
 
-**[Solution]()**
+</details>
 
-**27. Sum numbers:**
-Sum all the numbers in an array.
+---
 
-**[Solution]()**
+## Array Manipulation
+
+### 13. Sort an Array:
+
+Write a function to sort an array of numbers in ascending order
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 14. Check for Element:
+
+Create a function that checks if a specific element exists in an array
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 15. Average of Numbers:
+
+Find the average of numbers in an array
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 16. Intersection of Arrays:
+
+Find the common elements between two arrays
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 17. Remove Specific Element:
+
+Write a function to remove a specific element from an array
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+## Number Manipulation
+
+### 18. Maximum of Two Numbers:
+
+Write a function to find the maximum of two numbers.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 19. Prime Number Checker:
+
+Check if a number is prime (only divisible by 1 and itself)
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 20. GCD (Greatest Common Divisor):
+
+Find the GCD of two numbers.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 21. LCM (Least Common Multiple):
+
+Find the LCM of two numbers.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 22. Sum of Digits:
+
+Calculate the sum of the digits of a number.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 23. Perfect Number Checker:
+
+Check if a number is a perfect number (sum of its divisors equals itself)
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 24. Power of a Number:
+
+Calculate the power of a number
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 25. Square Root:
+
+Calculate the square root of a number
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 26. Factorial:
+
+Calculate the factorial of a number
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 27. Fibonacci Sequence:
+
+Generate the Fibonacci sequence up to a given number of terms.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 28. Binary to Decimal Converter:
+
+Convert a binary number to a decimal number
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 29. Roman Numeral Converter:
+
+Convert a number to a Roman numeral.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---
+
+### 30. Area of a Circle:
+
+Calculate the area of a circle with a given radius.
+
+<details>
+<summary>Solution</summary>
+
+```javascript
+// solution here
+```
+
+</details>
+
+---

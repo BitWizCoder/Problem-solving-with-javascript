@@ -167,9 +167,8 @@ function findLarge(num1, num2) {
   // Your code
 }
 
-console.log(findLarge(1, 2)) // 2
-console.log(findLarge(4, 3)) // 4
-
+console.log(findLarge(1, 2)); // 2
+console.log(findLarge(4, 3)); // 4
 ```
 
 <details>
@@ -194,6 +193,7 @@ function findLarge(num1, num2) {
 ## String Manipulation:
 
 ### xi. Reverse a String:
+
 Create a function to reverse the characters in a string
 
 <details>
@@ -207,8 +207,8 @@ Create a function to reverse the characters in a string
 
 ---
 
-
 ### xi. Palindrome Checker:
+
 Write a function that checks if a word is a palindrome (reads the same backward as forward)
 
 <details>
@@ -223,6 +223,7 @@ Write a function that checks if a word is a palindrome (reads the same backward 
 ---
 
 ### xi. Longest Word:
+
 Write a function to find the longest word in a sentence
 
 <details>
@@ -237,6 +238,7 @@ Write a function to find the longest word in a sentence
 ---
 
 ### xi. Shortest Word:
+
 Write a function to find the shortest word in a sentence.
 
 <details>
@@ -250,8 +252,8 @@ Write a function to find the shortest word in a sentence.
 
 ---
 
-
 ### xi. Title Case:
+
 Write a function to convert a string to title case (capitalize the first letter of each word)
 
 <details>
@@ -265,8 +267,8 @@ Write a function to convert a string to title case (capitalize the first letter 
 
 ---
 
-
 ### xi. Anagram Checker:
+
 Create a function that checks if two words are anagrams (contain the same letters)
 
 <details>
@@ -280,11 +282,10 @@ Create a function that checks if two words are anagrams (contain the same letter
 
 ---
 
-
-
 ## Array Manipulation
 
 ### xi. Sort an Array:
+
 Write a function to sort an array of numbers in ascending order
 
 <details>
@@ -297,24 +298,9 @@ Write a function to sort an array of numbers in ascending order
 </details>
 
 ---
-
-
-### xi. Sort an Array:
-Write a function to sort an array of numbers in ascending order
-
-<details>
-<summary>Solution</summary>
-
-```javascript
-// solution here
-```
-
-</details>
-
----
-
 
 ### xi. Check for Element:
+
 Create a function that checks if a specific element exists in an array
 
 <details>
@@ -328,8 +314,8 @@ Create a function that checks if a specific element exists in an array
 
 ---
 
-
 ### xi. Average of Numbers:
+
 Find the average of numbers in an array
 
 <details>
@@ -343,8 +329,8 @@ Find the average of numbers in an array
 
 ---
 
-
 ### xi. Intersection of Arrays:
+
 Find the common elements between two arrays
 
 <details>
@@ -358,8 +344,8 @@ Find the common elements between two arrays
 
 ---
 
-
 ### xi. Remove Specific Element:
+
 Write a function to remove a specific element from an array
 
 <details>
@@ -373,25 +359,10 @@ Write a function to remove a specific element from an array
 
 ---
 
-
-### xi. Remove Duplicates:
-Create a function that removes duplicate elements from an array
-
-<details>
-<summary>Solution</summary>
-
-```javascript
-// solution here
-```
-
-</details>
-
----
-
-
 ## Number Manipulation
 
 ### xi. Maximum of Two Numbers:
+
 Write a function to find the maximum of two numbers.
 
 <details>
@@ -405,8 +376,8 @@ Write a function to find the maximum of two numbers.
 
 ---
 
-
 ### xi. Prime Number Checker:
+
 Check if a number is prime (only divisible by 1 and itself)
 
 <details>
@@ -420,8 +391,8 @@ Check if a number is prime (only divisible by 1 and itself)
 
 ---
 
-
 ### xi. GCD (Greatest Common Divisor):
+
 Find the GCD of two numbers.
 
 <details>
@@ -435,8 +406,8 @@ Find the GCD of two numbers.
 
 ---
 
-
 ### xi. LCM (Least Common Multiple):
+
 Find the LCM of two numbers.
 
 <details>
@@ -450,8 +421,8 @@ Find the LCM of two numbers.
 
 ---
 
-
 ### xi. Sum of Digits:
+
 Calculate the sum of the digits of a number.
 
 <details>
@@ -465,8 +436,8 @@ Calculate the sum of the digits of a number.
 
 ---
 
-
 ### xi. Perfect Number Checker:
+
 Check if a number is a perfect number (sum of its divisors equals itself)
 
 <details>
@@ -480,8 +451,8 @@ Check if a number is a perfect number (sum of its divisors equals itself)
 
 ---
 
-
 ### xi. Power of a Number:
+
 Calculate the power of a number
 
 <details>
@@ -496,6 +467,7 @@ Calculate the power of a number
 ---
 
 ### xi. Square Root:
+
 Calculate the square root of a number
 
 <details>
@@ -509,8 +481,8 @@ Calculate the square root of a number
 
 ---
 
-
 ### xi. Factorial:
+
 Calculate the factorial of a number
 
 <details>
@@ -524,8 +496,8 @@ Calculate the factorial of a number
 
 ---
 
-
 ### xi. Fibonacci Sequence:
+
 Generate the Fibonacci sequence up to a given number of terms.
 
 <details>
@@ -539,8 +511,8 @@ Generate the Fibonacci sequence up to a given number of terms.
 
 ---
 
-
 ### xi. Binary to Decimal Converter:
+
 Convert a binary number to a decimal number
 
 <details>
@@ -554,8 +526,8 @@ Convert a binary number to a decimal number
 
 ---
 
-
 ### xi. Roman Numeral Converter:
+
 Convert a number to a Roman numeral.
 
 <details>
@@ -569,8 +541,8 @@ Convert a number to a Roman numeral.
 
 ---
 
-
 ### xi. Area of a Circle:
+
 Calculate the area of a circle with a given radius.
 
 <details>
